@@ -13,13 +13,14 @@ const Featured = () => {
         price: string,
         cart: string,
         new?: {}
+        bg?: {}
     }
 
     let featuredBoxes: pro[] = [
-        {image: "/featured/Image.png", alt: "featured1", name: "Cantilever chair", price: "$42.00", cart: "/featured/Cart1.png", new: <New text={"New"} bg={"#00FF66"}/>, alt2: "cart1"},
-        {image: "/featured/Image1.png", alt: "featured2", name: "Cantilever chair", price: "$42.00", cart: "/featured/Cart1.png", new: <New text={"Sales"} bg={"#F5813F"}/>, alt2: "cart1"},
-        {image: "/featured/Image2.png", alt: "featured3", name: "Cantilever chair", price: "$42.00", cart: "/featured/Cart1.png", alt2: "cart1"},
-        {image: "/featured/Image3.png", alt: "featured4", name: "Cantilever chair", price: "$42.00", cart: "/featured/Cart1.png", alt2: "cart1"},
+        {image: "/featured/Image.png", alt: "featured1", name: "Library Stool chair", price: "$20", cart: "/featured/Cart1.png", new: <New text={"New"} bg={"#00FF66"}/>, alt2: "cart1", bg: "#029FAE"},
+        {image: "/featured/Image1.png", alt: "featured2", name: "Library Stool chair", price: "$20", cart: "/featured/Cart.png", new: <New text={"Sales"} bg={"#F5813F"}/>, alt2: "cart",bg: "#fff"},
+        {image: "/featured/Image2.png", alt: "featured3", name: "Library Stool chair", price: "$20", cart: "/featured/Cart.png", alt2: "cart",bg: "#fff"},
+        {image: "/featured/Image3.png", alt: "featured4", name: "Library Stool chair", price: "$20", cart: "/featured/Cart.png", alt2: "cart",bg: "#fff"},
     ]
   return (
     <div className='mb-10'>
@@ -31,7 +32,7 @@ const Featured = () => {
                 <section className='grid grid-cols-1  sm:grid-cols-2 xl:grid-cols-4  gap-x-4'>
                     {featuredBoxes.map((products) => {
                         return(
-                            <FeaturedBoxes image={products.image} alt={products.alt} name={products.name} price={products.price} cart={products.cart} new={products.new}/>
+                            <FeaturedBoxes image={products.image} alt={products.alt} name={products.name} price={products.price} cart={products.cart} new={products.new} bg={products.bg}/>
                         )
                     })}
                 </section>

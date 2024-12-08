@@ -1,3 +1,4 @@
+import Categories from "./components/categories";
 import Featured from "./components/featured";
 import HeroSection from "./components/hero-section";
 import Sponsor from "./components/sponsor";
@@ -28,6 +29,7 @@ export default function Home() {
           </section>
         </section>
         <Featured/>
+        <Categories/>
       </div>
   );
 }

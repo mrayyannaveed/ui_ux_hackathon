@@ -1,6 +1,8 @@
 import Categories from "./components/categories";
+import Explore from "./components/explore";
 import Featured from "./components/featured";
 import HeroSection from "./components/hero-section";
+import OurProducts from "./components/ourProducts";
 import Sponsor from "./components/sponsor";
 
 export default function Home() {
@@ -17,7 +19,7 @@ export default function Home() {
   return (
       <div>
         <HeroSection/>
-        <section className="flex justify-center items-center mb-12 ">
+        <section className="flex justify-center items-center mb-20 ">
 
           <section className="flex justify-center w-[90vw] sm:w-[85vw] md:w-[80vw] lg:w-[75vw]">
             <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7">
@@ -30,6 +32,8 @@ export default function Home() {
         </section>
         <Featured/>
         <Categories/>
+        <Explore/>
+        <OurProducts/>
       </div>
   );
 }

@@ -22,7 +22,6 @@ const CategoryBoxes = (props:any) => {
               <p className='text-white text-l'>{props.chair}</p>
               <p className='text-white text-l'>{props.products}</p>
             </div>
-            {/* reder below para on image */ }
           <div className="relative">
 
           <div className="text-center hidden absolute translate-x-[-50%] left-[50%]" id="btn">

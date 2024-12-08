@@ -23,7 +23,7 @@ const Featured = () => {
         {image: "/featured/Image3.png", alt: "featured4", name: "Library Stool chair", price: "$20", cart: "/featured/Cart.png", alt2: "cart",bg: "#fff"},
     ]
   return (
-    <div className='mb-10'>
+    <div className='mb-20'>
         <section className='flex justify-center'>
             <section className='w-[90vw] grid gap-5 sm:w-[85vw] md:w-[80vw] lg:w-[75vw] '>
                 <div className='text-center sm:text-left'>

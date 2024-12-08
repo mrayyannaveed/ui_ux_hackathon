@@ -29,7 +29,7 @@ const Categories = () => {
                     <SectionHeading head={heading}/>
                     </div>
                     <section className=''>
-                        <section className='grid grid-cols-1 md:grid-cols-3 gap-5  bg-blue-200'>
+                        <section className='grid grid-cols-1 md:grid-cols-3 gap-5'>
                             {categories.map((products) => {
                                 return(
                                     <CategoryBoxes image={products.image} alt={products.alt} chair={products.desc} products={products.buyer}/>

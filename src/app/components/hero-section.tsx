@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react'
 
 const HeroSection = () => {
   return (
-    <div className='mb-12'>
+    <div className='mb-20'>
       <section className='flex justify-center'>
         <section className='w-[90vw] sm:w-[85vw] md:w-[80vw] lg:w-[75vw] min-h-[850px] bg-[#F0F2F3] flex justify-center items-center'>
           <section className='w-[80vw] sm:w-[75vw] md:w-[70vw] lg:w-[65vw] xl:w-[60vw] flex flex-col-reverse lg:flex-row text-center lg:text-left justify-center items-center gap-8'>

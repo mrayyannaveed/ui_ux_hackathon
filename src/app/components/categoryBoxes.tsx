@@ -11,13 +11,13 @@ const CategoryBoxes = (props:any) => {
             {props.new}
           </span>
           <div className="">
-            <Image
+            <Link href={"/product"}><Image
               className="w-full h-full relative"
               src={props.image}
               alt={props.alt}
               width={500}
               height={500}
-            ></Image>
+            ></Image></Link>
             <div className='z-10 h-[100%] opacity-70 relative mt-[-50px] bg-black flex flex-col pl-2'>
               <p className='text-white text-l'>{props.chair}</p>
               <p className='text-white text-l'>{props.products}</p>

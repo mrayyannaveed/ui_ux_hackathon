@@ -3,8 +3,13 @@ import SectionHeading from './sectionHeading'
 import FeaturedBoxes from './featuredBoxes'
 import New from './new'
 
-let heading = "Featured Products"
-const Featured = () => {
+const Featured = (props:any) => {
+    let heading;
+    if(props.head == null){
+        heading = "Featured Products"
+    } else {
+        heading = props.head
+    }
     type pro = {
         image: string,
         alt: string,

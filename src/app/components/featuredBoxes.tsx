@@ -11,13 +11,13 @@ const FeaturedBoxes = (props:any) => {
             {props.new}
           </span>
           <div className="flex justify-center items-center flex-col">
-            <Image
+            <Link href={"/products"}><Image
               className="w-full h-full"
               src={props.image}
               alt={props.alt}
               width={500}
               height={500}
-            ></Image>
+            ></Image></Link>
           <div className="relative">
 
           <div className="text-center my-5 hidden absolute translate-x-[-50%] left-[50%]" id="btn">

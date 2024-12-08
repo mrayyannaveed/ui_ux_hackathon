@@ -30,7 +30,7 @@ const OurProducts = () => {
                 <div className='text-center'>
                 <SectionHeading head={heading}/>
                 </div>
-                <Featured/>
+                <Featured head={""}/>
                 <section className='grid grid-cols-1  sm:grid-cols-2 xl:grid-cols-4  gap-x-4'>
                     {featuredBoxes.map((products) => {
                         return(

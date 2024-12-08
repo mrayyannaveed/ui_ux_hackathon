@@ -4,11 +4,12 @@ import React from 'react'
 import Link from 'next/link';
 import { Drawer, DrawerContent, DrawerTrigger } from './ui/drawer';
 import { MenuIcon } from 'lucide-react';
+import Navbar from '@/app/components/navbar';
 
 const MainMenu = () => {
     const isDesktop = useMediaQuery("(min-width: 768px)");
   return isDesktop ? (
-  <div>desktop</div>
+  <div><Navbar/></div>
   ) : (
   <div>
     <Drawer direction='right'>

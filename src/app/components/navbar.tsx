@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="md:block hidden">
       <section className='flex bg-[#E1E3E5] text-[#636270]  items-center justify-center w-full h-[124px] sm:h-[104px] md:h-[84px]'>
-        <section className='w-[90vw] sm:w-[85vw] md:w-[75vw] flex flex-col sm:flex-row gap-3 justify-between items-center'>  
+        <section className='w-[90vw] sm:w-[85vw] md:w-[80vw] flex flex-col sm:flex-row gap-3 justify-between items-center'>  
           <div>
             <ul className="flex gap-5">
                 <li><Link className="hover:text-[#007580]" href={"/"}>Home</Link></li>       

@@ -3,7 +3,7 @@ const Logo = () => {
   return (
     <div>
         <section className='flex bg-[#F0F2F3] items-center justify-center w-full h-[124px] sm:h-[104px] md:h-[84px]'>
-            <section className='w-[90vw] sm:w-[85vw] md:w-[75vw] flex flex-col sm:flex-row gap-3 justify-between items-center'>
+            <section className='w-[90vw] sm:w-[85vw] md:w-[80vw] flex flex-col sm:flex-row gap-3 justify-between items-center'>
                 <div className="flex flex-col sm:flex-row items-center gap-1">
                   <Image className="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10" src={"/sofa.png"} alt="sofa" width={300} height={300}></Image>
                   <p className="text-[20px] sm:text-[24px] md:text-[26px] font-medium">Comforty</p>

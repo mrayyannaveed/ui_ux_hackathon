@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div>
         <header className='bg-[#272343]  flex  items-center justify-center w-full h-[100px] sm:h-[80px] md:h-[50px] text-[#FFFFFF]'>
-            <section className="w-[90vw] sm:w-[85vw] md:w-[75vw] flex flex-col sm:flex-row gap-4 justify-between items-center">
+            <section className="w-[90vw] sm:w-[85vw] md:w-[80vw] flex flex-col sm:flex-row gap-4 justify-between items-center">
                 <div className="flex items-center gap-3">
                     <Image className="w-4 h-4" src={"/check.png"} alt="check" width={300} height={300}></Image>        
                     <p className='text-[13px]'>Free shipping on all orders over $50</p>

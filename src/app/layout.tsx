@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "./components/header";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import Logo from "./components/logo";
+import MainMenu from "@/components/main-menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +23,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header/>
+        <Logo/>
         <Navbar/>
+        <MainMenu/>
         {children}
         <Footer/>
         </body>

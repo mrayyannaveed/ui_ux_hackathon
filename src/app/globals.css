@@ -32,6 +32,18 @@ body {
   }
 } */
 
+#btn_div:hover #btn{
+  display: block;
+}
+
+#li:hover #submenu{
+  opacity: 1;
+  top: 128px;
+  visibility: visible;
+  transition: all 0.25s ease-in;
+  /*write code of blur background-color */
+}
+
 @layer base {
   :root {
 

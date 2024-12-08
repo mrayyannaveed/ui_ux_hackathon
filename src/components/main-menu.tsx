@@ -18,12 +18,16 @@ const MainMenu = () => {
         </DrawerTrigger>
         <DrawerContent>
         <div className='bg-[#000] flex items-center text-[#fafafa] h-full rounded-lg'>
-            <ul className="flex flex-col gap-12 ml-3">
+            <ul className="flex flex-col gap-12 ml-3">         
                 <li className='hover:bg-slate-300 rounded-md p-1'><Link className="hover:text-[#007580]" href={"/"}>Home</Link></li>       
                 <li className='hover:bg-slate-300 rounded-md p-1'><Link className="hover:text-[#007580]" href={"/"}>Shop</Link></li>       
                 <li className='hover:bg-slate-300 rounded-md p-1'><Link className="hover:text-[#007580]" href={"/"}>Product</Link></li>          
                 <li className='hover:bg-slate-300 rounded-md p-1'><Link className="hover:text-[#007580]" href={"/"}>Pages</Link></li>        
                 <li className='hover:bg-slate-300 rounded-md p-1'><Link className="hover:text-[#007580]" href={"/"}>About</Link></li>        
+                <div className='flex gap-1'>
+                  <p className='text-sm font-normal '>Contact:</p>
+                  <p className='text-sm font-medium text-[#fafafa]'>(808) 555-0111</p>
+                </div>
             </ul>
           </div>
         </DrawerContent>

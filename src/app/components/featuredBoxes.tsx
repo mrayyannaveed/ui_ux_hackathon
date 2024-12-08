@@ -11,7 +11,7 @@ const FeaturedBoxes = (props:any) => {
             {props.new}
           </span>
           <div className="flex justify-center items-center flex-col">
-            <Link href={"/products"}><Image
+            <Link href={"/chairCart"}><Image
               className="w-full h-full"
               src={props.image}
               alt={props.alt}

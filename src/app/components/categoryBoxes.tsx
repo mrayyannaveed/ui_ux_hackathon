@@ -11,7 +11,7 @@ const CategoryBoxes = (props:any) => {
             {props.new}
           </span>
           <div className="">
-            <Link href={"/product"}><Image
+            <Link href={""}><Image
               className="w-full h-full relative"
               src={props.image}
               alt={props.alt}

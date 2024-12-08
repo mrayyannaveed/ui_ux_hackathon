@@ -6,7 +6,11 @@ import OurProducts from "./components/ourProducts";
 import Sponsor from "./components/sponsor";
 
 export default function Home() {
-  let sponsors = [
+  type spons = {
+    sponsorImage: string,
+    sponsorAlt: string
+  }
+  let sponsors: spons[] = [
     {sponsorImage: "/logo.png", sponsorAlt: "zapier"},
     {sponsorImage: "/logo1.png", sponsorAlt: "pipedrive"},
     {sponsorImage: "/logo2.png", sponsorAlt: "cib_bank"},

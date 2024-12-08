@@ -7,13 +7,13 @@ import Sponsor from "./components/sponsor";
 
 export default function Home() {
   let sponsors = [
-    {sponsorImage: "/sponsor/logo.png", sponsorAlt: "zapier"},
-    {sponsorImage: "/sponsor/logo1.png", sponsorAlt: "pipedrive"},
-    {sponsorImage: "/sponsor/logo2.png", sponsorAlt: "cib_bank"},
-    {sponsorImage: "/sponsor/logo3.png", sponsorAlt: "z"},
-    {sponsorImage: "/sponsor/logo4.png", sponsorAlt: "burnt toast"},
-    {sponsorImage: "/sponsor/logo5.png", sponsorAlt: "pandadoc"},
-    {sponsorImage: "/sponsor/logo6.png", sponsorAlt: "moz"}
+    {sponsorImage: "/logo.png", sponsorAlt: "zapier"},
+    {sponsorImage: "/logo1.png", sponsorAlt: "pipedrive"},
+    {sponsorImage: "/logo2.png", sponsorAlt: "cib_bank"},
+    {sponsorImage: "/logo3.png", sponsorAlt: "z"},
+    {sponsorImage: "/logo4.png", sponsorAlt: "burnt toast"},
+    {sponsorImage: "/logo5.png", sponsorAlt: "pandadoc"},
+    {sponsorImage: "/logo6.png", sponsorAlt: "moz"}
   ]
 
   return (

@@ -9,7 +9,7 @@ const Navbar = () => {
             <ul className="flex gap-5">
                 <li><Link className="hover:text-[#007580]" href={"/"}>Home</Link></li>       
                 <li><Link className="hover:text-[#007580]" href={"/"}>Shop</Link></li>       
-                <li><Link className="hover:text-[#007580]" href={"product"}>Product</Link></li>          
+                <li><Link className="hover:text-[#007580]" href={"/product"}>Product</Link></li>          
                 <li><Link className="hover:text-[#007580]" href={"/"}>Pages</Link></li>        
                 <li><Link className="hover:text-[#007580]" href={"/"}>About</Link></li>        
             </ul>

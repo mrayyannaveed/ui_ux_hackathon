@@ -12,7 +12,7 @@ const FeaturedBoxes = (props:any) => {
           </span>
           <div className="flex justify-center items-center flex-col">
             <Link href={"/chairCart"}><Image
-              className="w-full h-full"
+              className="w- h-"
               src={props.image}
               alt={props.alt}
               width={500}

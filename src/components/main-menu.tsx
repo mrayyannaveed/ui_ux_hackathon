@@ -21,7 +21,7 @@ const MainMenu = () => {
             <ul className="flex flex-col gap-12 ml-3">         
                 <li className='hover:bg-slate-300 rounded-md p-1'><Link className="hover:text-[#007580]" href={"/"}>Home</Link></li>       
                 <li className='hover:bg-slate-300 rounded-md p-1'><Link className="hover:text-[#007580]" href={"/"}>Shop</Link></li>       
-                <li className='hover:bg-slate-300 rounded-md p-1'><Link className="hover:text-[#007580]" href={"/"}>Product</Link></li>          
+                <li className='hover:bg-slate-300 rounded-md p-1'><Link className="hover:text-[#007580]" href={"/product"}>Product</Link></li>          
                 <li className='hover:bg-slate-300 rounded-md p-1'><Link className="hover:text-[#007580]" href={"/"}>Pages</Link></li>        
                 <li className='hover:bg-slate-300 rounded-md p-1'><Link className="hover:text-[#007580]" href={"/"}>About</Link></li>        
                 <div className='flex gap-1'>

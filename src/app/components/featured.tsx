@@ -20,7 +20,7 @@ const Featured = (props:any) => {
         new?: {}
         bg?: {}
     }
-
+    
     let featuredBoxes: pro[] = [
         {image: "/featured/Image.png", alt: "featured1", name: "Library Stool chair", price: "$20", cart: "/featured/Cart1.png", new: <New text={"New"} bg={"#00FF66"}/>, alt2: "cart1", bg: "#029FAE"},
         {image: "/featured/Image1.png", alt: "featured2", name: "Library Stool chair", price: "$20", cart: "/featured/Cart.png", new: <New text={"Sales"} bg={"#F5813F"}/>, alt2: "cart",bg: "#fff"},
@@ -30,11 +30,11 @@ const Featured = (props:any) => {
   return (
     <div className='mb-20'>
         <section className='flex justify-center'>
-            <section className='w-[90vw] grid gap-5 sm:w-[85vw] md:w-[80vw] lg:w-[75vw] '>
+            <section className='w-[90vw] grid gap-8 sm:w-[85vw] md:w-[80vw] lg:w-[75vw] '>
                 <div className='text-center sm:text-left'>
                 <SectionHeading head={heading}/>
                 </div>
-                <section className='grid grid-cols-1  sm:grid-cols-2 xl:grid-cols-4  gap-x-4'>
+                <section className='grid grid-cols-1  sm:grid-cols-2 xl:grid-cols-4  gap-10'>
                     {featuredBoxes.map((products) => {
                         return(
                             <FeaturedBoxes image={products.image} alt={products.alt} name={products.name} price={products.price} cart={products.cart} new={products.new} bg={products.bg}/>

@@ -11,13 +11,13 @@ export default function Home() {
     sponsorAlt: string
   }
   let sponsors: spons[] = [
-    {sponsorImage: "/OurProduct/Logo.png", sponsorAlt: "zapier"},
-    {sponsorImage: "/OurProduct/Logo1.png", sponsorAlt: "pipedrive"},
-    {sponsorImage: "/OurProduct/Logo2.png", sponsorAlt: "cib_bank"},
-    {sponsorImage: "/OurProduct/Logo3.png", sponsorAlt: "z"},
-    {sponsorImage: "/OurProduct/Logo4.png", sponsorAlt: "burnt toast"},
-    {sponsorImage: "/OurProduct/Logo5.png", sponsorAlt: "pandadoc"},
-    {sponsorImage: "/OurProduct/Logo6.png", sponsorAlt: "moz"}
+    {sponsorImage: "/sponsor/Logo.png", sponsorAlt: "zapier"},
+    {sponsorImage: "/sponsor/Logo1.png", sponsorAlt: "pipedrive"},
+    {sponsorImage: "/sponsor/Logo2.png", sponsorAlt: "cib_bank"},
+    {sponsorImage: "/sponsor/Logo3.png", sponsorAlt: "z"},
+    {sponsorImage: "/sponsor/Logo4.png", sponsorAlt: "burnt toast"},
+    {sponsorImage: "/sponsor/Logo5.png", sponsorAlt: "pandadoc"},
+    {sponsorImage: "/sponsor/Logo6.png", sponsorAlt: "moz"}
   ]
 
   return (

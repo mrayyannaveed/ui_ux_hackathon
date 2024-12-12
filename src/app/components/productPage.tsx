@@ -15,7 +15,7 @@ const ProductPage = (props:any) => {
               height={500}
             ></Image></Link>
           </div>
-        <div className="pt-2 flex w-full justify-between pb-2 bg-white">  
+        <div className="pt-2 flex w-full px-4 md:px-2 lg:px-0 justify-between pb-2 bg-white">  
             <div className="flex justify-between w-full gap-2">
                 <span className=" text-base text-[]">{props.name}</span>
                 <p className=" text-lg text-[#000]">{props.price}</p>

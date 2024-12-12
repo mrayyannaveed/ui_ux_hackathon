@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import SectionHeading from '../components/sectionHeading'
 import ProductPage from '../components/productPage'
+import Link from 'next/link'
 
 const Chair = () => {
   type pro = {
@@ -33,17 +34,19 @@ let featuredBoxes: pro[] = [
                         <div className='md:pt-10'>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt erat enim. Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                         </div>
-                        <div className=''>      
-                        <Button className='text-[#FFFFFF] w-[212px] h-[63px] flex items-center bg-[#029FAE] text-xl'>
+                        <div className=''> 
+                        <Link href={"/addCart"}>     
+                        <Button type='button' className='text-[#FFFFFF] w-[212px] h-[63px] flex items-center bg-[#029FAE] text-xl'>
+                          
                         <Image className='w-[29px] h-[29px]' src={"/featured/Cart1.png"} alt='cart' width={400} height={400}></Image>
-                          Add To Cart</Button>
+                          Add To Cart</Button></Link>
                         </div>
 
                     </div>
                 </section>
-                <section>
+                <section >
 
-                <div className="my-10 flex justify-between items-center">
+                <div className="my-10 flex justify-between items-center ">
                 <SectionHeading head={"Featured Products"}/>
                 <span className='font-bold text-lg underline decoration-2 underline-offset-8 hover:bg-slate-300'>View all</span>
                 </div>

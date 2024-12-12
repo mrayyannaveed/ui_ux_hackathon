@@ -3,7 +3,7 @@ import React from 'react'
 const SectionHeading = (props:any) => {
   return (
     <div>
-        <span className="text-[#272343] text-[32px] font-semibold leading-[48px]">
+        <span className="text-[#272343] text-[26px]  font-semibold leading-[48px]">
           {props.head}
         </span>
     </div>

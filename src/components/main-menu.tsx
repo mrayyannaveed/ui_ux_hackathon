@@ -26,7 +26,9 @@ const MainMenu = () => {
                 <li className='hover:bg-slate-300 rounded-md p-1'><Link className="hover:text-[#007580]" href={"/"}>About</Link></li>        
                 <div className='flex gap-1'>
                   <p className='text-sm font-normal '>Contact:</p>
+                  <Link href={"/contactus"}>
                   <p className='text-sm font-medium text-[#fafafa]'>(808) 555-0111</p>
+                  </Link>
                 </div>
             </ul>
           </div>

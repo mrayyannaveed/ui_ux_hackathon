@@ -16,7 +16,9 @@ const Navbar = () => {
           </div>
           <div className='flex gap-1'>
             <p className='text-sm font-normal '>Contact:</p>
+            <Link href={"/contactus"}>
             <p className='text-sm font-medium text-black'>(808) 555-0111</p>
+            </Link>
           </div>
         </section>
       </section>

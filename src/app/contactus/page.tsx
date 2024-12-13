@@ -15,7 +15,7 @@ const ContactUs = () => {
             </div>
                 <section className='flex justify-center pb-32'>
                     <section className='w-[90vw] grid gap-20 sm:w-[85vw] md:w-[80vw] lg:w-[75vw] '>
-                        <section className='grid grid-cols-1 lg:grid-cols-3 lg:grid-rows- bg-yellow-200 gap-20'>
+                        <section className='grid grid-cols-1 lg:grid-cols-3 gap-20'>
                             <section className='grid gap-8 lg:gap-10'>
                                 <div className='flex gap-7'>
                                     <div>

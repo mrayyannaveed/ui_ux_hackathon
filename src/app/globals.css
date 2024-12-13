@@ -41,7 +41,6 @@ body {
   top: 128px;
   visibility: visible;
   transition: all 0.25s ease-in;
-  /*write code of blur background-color */
 }
 
 @layer base {

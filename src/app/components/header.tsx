@@ -14,8 +14,8 @@ const Header = () => {
                         <option value="lang" className="bg-black">Eng</option>
                         <option value="lang" className="bg-black">Urdu</option>
                     </select>
-                    <Link href={""} className="cursor-pointer">Faq</Link>
-                    <Link href={""} className="flex items-center gap-2">
+                    <Link href={"/FAQ"} className="cursor-pointer">Faq</Link>
+                    <Link href={"/aboutus"} className="flex items-center gap-2">
                         <Image className="w-4 h-4" src={"/header/alertcircle.svg"} alt="needHelp" width={50} height={50}></Image>    
                         Need Help    
                     </Link>

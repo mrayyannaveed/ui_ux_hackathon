@@ -10,13 +10,13 @@ const Navbar = () => {
                 <li><Link className="hover:text-[#007580]" href={"/"}>Home</Link></li>       
                 <li><Link className="hover:text-[#007580]" href={"/product"}>Shop</Link></li>       
                 <li><Link className="hover:text-[#007580]" href={"/product"}>Product</Link></li>          
-                <li><Link className="hover:text-[#007580]" href={"/FAQ"}>Pages</Link></li>        
+                <li><Link className="hover:text-[#007580]" href={"/product"}>Pages</Link></li>        
                 <li><Link className="hover:text-[#007580]" href={"/aboutus"}>About</Link></li>        
             </ul>
           </div>
-          <div className='flex gap-1'>
+          <div >
+            <Link href={"/contactus"} className='flex gap-1'>
             <p className='text-sm font-normal '>Contact:</p>
-            <Link href={"/contactus"}>
             <p className='text-sm font-medium text-black'>(808) 555-0111</p>
             </Link>
           </div>

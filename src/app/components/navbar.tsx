@@ -8,10 +8,10 @@ const Navbar = () => {
           <div>
             <ul className="flex gap-5">
                 <li><Link className="hover:text-[#007580]" href={"/"}>Home</Link></li>       
-                <li><Link className="hover:text-[#007580]" href={"/"}>Shop</Link></li>       
+                <li><Link className="hover:text-[#007580]" href={"/product"}>Shop</Link></li>       
                 <li><Link className="hover:text-[#007580]" href={"/product"}>Product</Link></li>          
-                <li><Link className="hover:text-[#007580]" href={"/"}>Pages</Link></li>        
-                <li><Link className="hover:text-[#007580]" href={"/"}>About</Link></li>        
+                <li><Link className="hover:text-[#007580]" href={"/FAQ"}>Pages</Link></li>        
+                <li><Link className="hover:text-[#007580]" href={"/aboutus"}>About</Link></li>        
             </ul>
           </div>
           <div className='flex gap-1'>

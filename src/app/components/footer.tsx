@@ -22,9 +22,9 @@ const Footer = () => {
                 <div className="flex justify-between">
                   <div className="flex justify-between gap-10">
 
-                        <Link href={"https://www.facebook.com/rayyan.naveed.33?mibextid=ZbWKwL"} target="_blank"><Facebook/></Link>
+                        <Link href={"https://www.facebook.com/share/19ber8dGc1/?mibextid=qi2Omg"} target="_blank"><Facebook/></Link>
                         <Link href={"https://www.twitter.com/"} target="_blank"><Twitter/></Link>
-                        <Link href={"https://www.instagram.com/"} target="_blank"><Instagram/></Link>
+                        <Link href={"https://www.instagram.com/rayyan_naveed_10/profilecard/?igsh=dHdiN2hraGZuNm44"} target="_blank"><Instagram/></Link>
                         <Link href={"https://github.com/dashboard"} target="_blank"><GithubIcon/></Link>
                         <Link href={"https://www.linkedin.com/in/muhammad-rayyan-naveed-63090b329/"} target="_blank"><Linkedin/></Link>
                     </div>

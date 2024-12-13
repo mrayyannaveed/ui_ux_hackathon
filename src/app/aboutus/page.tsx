@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import AboutBrand from '../components/aboutBrand'
 import SectionHeading from '../components/sectionHeading'
+import Link from 'next/link'
 
 const AboutUs = () => {
     let aboutBrand = [
@@ -44,7 +45,9 @@ const AboutUs = () => {
                             <p className='text-white text-sm sm:text-base'>At Comforty, we believe that the right chair can transform your space and elevate your comfort. Specializing in ergonomic design, premium materials, and modern aesthetics, we craft chairs that seamlessly blend style with functionality. </p>
                         </div>
                         <div>
+                            <Link href={"/product"}>
                             <Button className='bg-[#35797f] text-white py-4 px-8 text-sm sm:text-base'>View collection</Button>
+                            </Link>
                         </div>
                         </section>
                         

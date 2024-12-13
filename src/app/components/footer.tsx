@@ -48,11 +48,10 @@ const Footer = () => {
                 <h1 className="text-sm mb- text-[#9A9CAA]">Support</h1>
                 <div>
                   <ul className='text-sm grid gap-3 '>
-                    <li><Link className='hover:underline hover:hover:decoration-blue-400 hover:hover:decoration-4' href={""}>Help & Support</Link></li>
-                    <li><Link className='hover:underline hover:hover:decoration-blue-400 hover:hover:decoration-4' href={""}>Terms & Conditions</Link></li>
-                    <li><Link className='hover:underline hover:hover:decoration-blue-400 hover:hover:decoration-4' href={""}>Privacy Policy</Link></li>
-                    <li><Link className='hover:underline hover:hover:decoration-blue-400 hover:hover:decoration-4' href={""}>Help</Link></li>
-                    <li><Link className='hover:underline hover:hover:decoration-blue-400 hover:hover:decoration-4' href={""}>Park Bench</Link></li>
+                    <li><Link className='hover:underline hover:hover:decoration-blue-400 hover:hover:decoration-4' href={"/FAQ"}>Help & Support</Link></li>
+                    <li><Link className='hover:underline hover:hover:decoration-blue-400 hover:hover:decoration-4' href={"/FAQ"}>Terms & Conditions</Link></li>
+                    <li><Link className='hover:underline hover:hover:decoration-blue-400 hover:hover:decoration-4' href={"/FAQ"}>Privacy Policy</Link></li>
+                    <li><Link className='hover:underline hover:hover:decoration-blue-400 hover:hover:decoration-4' href={"/FAQ"}>Help</Link></li>
                   </ul>
                 </div>
                 </div>

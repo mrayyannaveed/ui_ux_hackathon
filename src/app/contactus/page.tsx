@@ -15,8 +15,8 @@ const ContactUs = () => {
             </div>
                 <section className='flex justify-center pb-32'>
                     <section className='w-[90vw] grid gap-20 sm:w-[85vw] md:w-[80vw] lg:w-[75vw] '>
-                        <section className='grid grid-cols-1 lg:grid-cols-3 gap-20'>
-                            <section className='grid gap-8 lg:gap-0'>
+                        <section className='grid grid-cols-1 lg:grid-cols-3 lg:grid-rows- bg-yellow-200 gap-20'>
+                            <section className='grid gap-8 lg:gap-10'>
                                 <div className='flex gap-7'>
                                     <div>
                                     <MapPin/>
@@ -51,7 +51,7 @@ const ContactUs = () => {
                                     </div>
                                 </div>
                             </section>
-                            <section className=' px-10 lg:col-span-2'>
+                            <section className=' px-10 lg:col-span-2 lg:row-span-2'>
                                 <form className='grid gap-7'>
                                     <label htmlFor="name">Your name</label>
                                     <input type="text" placeholder='Abc' id='name' className='w-full h-[75px] p-3 border border-[#9F9F9F] rounded-lg'/>

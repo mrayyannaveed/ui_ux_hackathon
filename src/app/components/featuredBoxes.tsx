@@ -21,7 +21,7 @@ const FeaturedBoxes = (props:any) => {
           <div className="relative">
 
           <div className="text-center my-5 hidden absolute translate-x-[-50%] left-[50%]" id="btn">
-            <Link href={""}><Button className="bg-black text-white" variant="outline">Add to Cart</Button></Link>
+            <Link href={"/addCart"}><Button className="bg-black text-white" variant="outline">Add to Cart</Button></Link>
         </div>
           </div>
           </div>

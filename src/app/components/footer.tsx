@@ -29,7 +29,7 @@ const Footer = () => {
                         <Link href={"https://www.linkedin.com/in/muhammad-rayyan-naveed-63090b329/"} target="_blank"><Linkedin/></Link>
                     </div>
                   </div>
-              </section> 
+              </section>
 
                 <div className='flex flex-col gap-7 items-center sm:items-start'>
                 <h1 className="text-sm mb- text-[#9A9CAA]">Category</h1>

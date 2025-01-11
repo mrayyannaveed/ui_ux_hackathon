@@ -6,8 +6,8 @@ import HeroSection from "./components/hero-section";
 import OurProducts from "./components/ourProducts";
 import Sponsor from "./components/sponsor";
 
-export default function Home() {
-//   const query = await client.fetch(
+export default async function Home() {
+  // const query = await client.fetch(
 //     `*[_type == "product" && "featured" in tags]{
 //         _id,
 //       name,

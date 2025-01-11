@@ -1,4 +1,3 @@
-// import { client } from "../../sanity-migration/sanityClient";
 import Categories from "./components/categories";
 import Explore from "./components/explore";
 import Featured from "./components/featured";
@@ -6,18 +5,7 @@ import HeroSection from "./components/hero-section";
 import OurProducts from "./components/ourProducts";
 import Sponsor from "./components/sponsor";
 
-export default async function Home() {
-  // const query = await client.fetch(
-//     `*[_type == "product" && "featured" in tags]{
-//         _id,
-//       name,
-//       price,
-//       discountPercentage,
-//       tags,
-//       "imageUrl": image.asset->url
-//     }`
-// );
-// console.log(query)
+export default function Home() {
   type spons = {
     sponsorImage: string,
     sponsorAlt: string

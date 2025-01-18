@@ -2,28 +2,31 @@ import React from 'react'
 import SectionHeading from './sectionHeading'
 import FeaturedBoxes from './featuredBoxes'
 import New from './new'
-import { allproducts, fourPro } from "@/sanity/lib/queries";
-import { sanityFetch } from "@/sanity/lib/fetch"
 
-const Featured = async (props:any) => {
+const Featured = (props:any) => {
     let heading;
     if(props.head == null){
         heading = "Featured Products"
     } else {
         heading = props.head
     }
-
-    type Product = {
-        _id: string,
+    type pro = {
+        image: string,
+        alt: string,
+        alt2: string,
         name: string,
-        description: string,
-        price: number,
-        imageUrl: string
-      }
-
-    const products: Product[] = await sanityFetch({query: allproducts})
-    // console.log(products)
-
+        price: string,
+        cart: string,
+        new?: {}
+        bg?: {}
+    }
+    
+    let featuredBoxes: pro[] = [
+        {image: "/featured/Image.png", alt: "featured1", name: "Library Stool chair", price: "$20", cart: "/featured/Cart1.png", new: <New text={"New"} bg={"#00FF66"}/>, alt2: "cart1", bg: "#029FAE"},
+        {image: "/featured/Image1.png", alt: "featured2", name: "Library Stool chair", price: "$20", cart: "/featured/Cart.png", new: <New text={"Sales"} bg={"#F5813F"}/>, alt2: "cart",bg: "#fff"},
+        {image: "/featured/Image2.png", alt: "featured3", name: "Library Stool chair", price: "$20", cart: "/featured/Cart.png", alt2: "cart",bg: "#fff"},
+        {image: "/featured/Image3.png", alt: "featured4", name: "Library Stool chair", price: "$20", cart: "/featured/Cart.png", alt2: "cart",bg: "#fff"},
+    ]
   return (
     <div className='mb-20'>
         <section className='flex justify-center'>
@@ -31,12 +34,10 @@ const Featured = async (props:any) => {
                 <div className='text-center sm:text-left'>
                 <SectionHeading head={heading}/>
                 </div>
-                <section className='grid grid-cols-1  sm:grid-cols-2 xl:grid-cols-3  gap-10'>
-                    {products.map((product:Product) => {
+                <section className='grid grid-cols-1  sm:grid-cols-2 xl:grid-cols-4  gap-10'>
+                    {featuredBoxes.map((products) => {
                         return(
-                            <div className=''>
-                            <FeaturedBoxes id={product._id} image={product.imageUrl} alt={product.name} name={product.name} price={product.price} desc={product.description}/>
-                            </div>
+                            <FeaturedBoxes image={products.image} alt={products.alt} name={products.name} price={products.price} cart={products.cart} new={products.new} bg={products.bg}/>
                         )
                     })}
                 </section>
